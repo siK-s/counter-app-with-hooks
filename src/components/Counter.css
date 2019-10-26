@@ -1,0 +1,33 @@
+.counter {
+    text-align: center;
+}
+form, button {
+    background-color: rebeccapurple;
+}
+label {
+    display: block;
+    padding-top: 1.5em;
+    padding-bottom: .25em;
+    color: #fff;
+    font-weight: bold;
+}
+input[type='text'] {
+    padding: .75em 0em;
+    margin: 1em auto 1.5em;
+    border: 0;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 2em;
+}
+input[type='text']:focus, button:focus { outline: none; }
+strong { color: rebeccapurple;}
+button {
+    cursor: pointer;
+    padding: .75em 1.6em;
+    margin: 0 .5em;
+    border: 0;
+    color: #fff;
+    font-size: .875em;
+    text-align: center;
+    border-radius: 2em;
+}
